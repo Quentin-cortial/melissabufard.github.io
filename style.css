@@ -1,0 +1,206 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* Définition de la taille de mes contenaires */
+.qc-container-80{
+width: 80%;
+margin: auto;
+}
+.qc-container-60{
+width: 60%;
+margin: auto;
+}
+
+/*--------------PAGE ACCUEIL ------------------------------------------------------------------------------------ */
+/* -------------------En-tête-----------*/
+#en-tete{
+    margin-bottom: 80px;
+
+    /* text-align: center; */
+    /* height: 500px;
+    background-image: url(img/nuages-roses.jpg);
+    background-size: cover; */
+    
+    height: 560px;
+    background-image: url(img/galets-empilés-coucher-soleil.jpg);
+    background-size: cover;
+}
+#en-tete .title{
+    /* padding-top: 190px; */
+    padding-left:200px;
+    padding-top: 210px;
+
+}
+#en-tete .title a{
+    color: black;
+    font-size: 1.5rem;
+}
+/*--------------------------------------- */
+
+
+/* --------- SECTION PRéSENTATION------------ */
+#presentation{
+    margin: 50px 0px 100px 0px;
+}
+#presentation #container-presentation{
+    /* background-color: #ECBEB4; */
+    border: solid 5px #ECBEB4;
+    border-radius: 10px;
+    padding: 20px;
+    /* width: 80%;
+    margin: auto;       */
+    display: flex;
+}
+#presentation #picture-presentation{
+    display: flex;
+    align-items: center;
+}
+#presentation #content-presentation{
+    margin-left: 50px; 
+}
+#presentation #content-presentation h5{
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #ECBEB4;
+}
+
+
+/* --------- SECTION PRéSENTATION SOPHROLOGUE------------ */
+#sophrologue{
+    margin-bottom: 100px;
+}
+#sophrologue h5{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ECBEB4;
+
+}
+/* -------------------------------------------------------------------*/
+
+/* ---------------------------------- SECTION coordonnées------------ */
+#contact-detail{
+    margin-top: 100px;
+}
+#contact-detail h5{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ECBEB4;
+}
+#contact-detail a{
+    color: black;
+}
+#contact-detail img{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+/* -------------------------------------------------------------------*/
+
+
+
+
+/*---------------------------PAGE Infos ------------------------------------------- ---------------------------------------*/
+/*------------------ Section Sophrologie -----------------*/
+#sophrologie{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#sophrologie h5{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ECBEB4;
+}
+#sophrologie hr{
+    border: 2px solid #ECBEB4;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/*---------------SECTION  Déroulement des séances------*/
+#seance{
+    margin-bottom: 80px;
+}
+#seance h5{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ECBEB4;
+}
+#seance hr{
+    border: 2px solid #ECBEB4;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* ------------ SECTION   Tarif-------------------*/
+#tarif h5{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ECBEB4;
+}
+#tarif .bulle-tarif{
+    justify-content: space-between;
+    display: flex;
+}
+#tarif .bulle-tarif div{
+    display: inline-block;
+    background-color: #ECBEB4;
+    width: 30%;
+    border-radius: 20px;
+    height: 100px;
+    
+}
+#tarif .bulle-tarif div p{
+    text-align: center;
+    padding-top: 25px;
+}
+#tarif hr{
+    border: 2px solid #ECBEB4;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* ------------------Section certification----------*/
+#certification{
+    margin-top: 80px;
+}
+#certification div{
+    display: flex;
+    margin-top: 20px;
+}
+#certification img{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+#certification div p{
+    margin-bottom: 0px;
+}
+
+
+/*--------------------------------------------------PAGE THEME----------------------------------------------*/
+.title-theme h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ECBEB4;
+}
+.theme h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #ECBEB4;
+    text-decoration: underline;
+}
+
+
+
+
+.show{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
